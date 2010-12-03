@@ -1,5 +1,5 @@
 flexi-streams
 ======
-This is the patched version of flexi-stream(created by weitz,http://weitz.de/flexi-streams/).
+This is the patched version of flexi-streams(created by weitz,http://weitz.de/flexi-streams/).
 
 It enables gbk(cp936,gb2312) encoding support,so that drakma could use it reading gbk pages. 
