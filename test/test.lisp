@@ -570,7 +570,7 @@ the external format EXTERNAL-FORMAT."
       (want-encoding-error #(#x01 #x01) :utf-32le)
       (want-encoding-error #(#x01 #x01 #x01) :utf-32le)
       (want-encoding-error #(#x01 #x01 #x01 #x01 #x01) :utf-32le)
-      (want-encoding-error #(#x80 #x41 #x73 #xc1 #x80 #xa2 #x8a) :gbk)
+      (want-encoding-error #(#x81 #x39 #x73 #xc1 #x80 #xa2 #x8a) :gbk)
       (want-encoding-error #(#x01) :utf-32be)
       (want-encoding-error #(#x01 #x01) :utf-32be)
       (want-encoding-error #(#x01 #x01 #x01) :utf-32be)
